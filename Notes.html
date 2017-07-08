@@ -1,0 +1,83 @@
+How does JavaScript work?
+You visit a website with JavaScript code on it.
+Your browser (e.g., Chrome) reads the code line-by-line.
+The browser runs each line of code as it reads it.
+Based on these instructions, the browser performs calculations and changes the HTML and CSS on the page.
+If the browser finds code it doesn't understand, it stops running and creates an error message.
+
+Statements
+Each instruction in JS is a "statement", like:
+console.log('Hello World!');
+console.log('I am glad to meet you');
+console.log('I am fuzzy');
+
+Comments
+You can leave comments in your code—notes that people can read but computers will ignore.
+/*
+I can make long comments
+with multiple lines here
+*/
+
+console.log('Hello World!'); // Or make short comments here
+
+Getting results onto your screen
+Open a popup box.
+alert('Hello World!');
+Display a message in your console.
+console.log('Hello World!');
+Add something to the page.
+document.write('Hello World!');
+
+Variables
+Just like 'x' in algebra, a variable is a named container for a value that can change.
+
+Declaring a Variable
+To declare (create) a variable, just type the word var and the variable name.
+var numberOfKittens;
+It is a good idea to give your variable a starting value. This is called initializing the variable.
+var numberOfKittens = 5;
+
+Variable Values
+When you first create a variable, it does not have a value (it is undefined).
+You can set a value for a variable.
+Variables can hold different types of data.
+The value of a variable can change over time.
+
+Data Types
+string string of characters
+var userName = 'Jane Lane';
+number integer or floating point
+var myAge = 30;
+boolean true or false
+var catsAreBest = true;
+undefined value that hasn't been defined
+var favoriteThings;
+null an explicitly empty value
+var goodPickupLines = null;
+
+Arithmetic Operators
+Once you have numbers, you can do math with them!
+var numberOfKittens = 5;
+var numberOfPuppies = 4;
+var numberOfAnimals = numberOfKittens + numberOfPuppies;
+
+Arithmetic Operators
+Example	Name	Result
+-a	Negation	Opposite of a.
+a + b	Addition	Sum of a and b.
+a - b	Subtraction	Difference of a and b.
+a * b	Multiplication	Product of a and b.
+a / b	Division	Quotient of a and b.
+a % b	Modulus	Remainder of a divided by b.
+
+Strings
+Variables can be strings (groups of characters). You put your string in single or double quotes.
+var kittensName = 'Fluffy';
+If you want to use a quote in your string, you'll need to escape it with a backslash.
+console.log('I\'d like to use an apostrophe');
+
+String Operators
+You can put strings together with a +, the concatenation operator.
+var kittensName = 'Fluffy ';
+var fullName = kittensName + 'McDougle';
+console.log(fullName); // Outputs 'Fluffy McDougle'
